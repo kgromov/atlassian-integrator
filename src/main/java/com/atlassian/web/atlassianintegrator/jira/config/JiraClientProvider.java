@@ -24,13 +24,6 @@ public class JiraClientProvider {
     }
 
     @Bean
-    public RestTemplate bitbucketRestTemplate(BitbucketCredentials credentials) {
-        return new RestTemplateBuilder()
-            .basicAuthentication(credentials.getClientId(), credentials.getSecret())
-            .build();
-    }
-
-    @Bean
     public Client jiraClient() {
         HttpAuthenticationFeature auth = HttpAuthenticationFeature.basic(settings.getLogin(), settings.getPassword());
         return ClientBuilder.newBuilder()

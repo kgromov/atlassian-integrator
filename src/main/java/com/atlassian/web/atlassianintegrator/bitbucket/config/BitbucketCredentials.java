@@ -6,10 +6,9 @@ import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-
-@Component
 @Getter
 @RequiredArgsConstructor
 @EqualsAndHashCode(of = {"clientId", "secret"})
