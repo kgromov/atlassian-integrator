@@ -1,0 +1,8 @@
+{
+  "scopes": "issue pullrequest team project account",
+  "access_token": "lI34_P84Sc1fkAHejiz4w6frioCxhv8ylyEtUwXqakHO2zaSTe5K8tRa7eMN0KgS8XKJ0RsFpsH94G9thO-3S6gZ0pSRQ2LwG-OdBxCZLlbxIBuYaae6sCA=",
+  "expires_in": 7200,
+  "token_type": "bearer",
+  "state": "authorization_code",
+  "refresh_token": "22V4s6g5jq8WWvFCxe"
+}

@@ -1,0 +1,56 @@
+{
+  "maxResults": 50,
+  "startAt": 0,
+  "total": 8,
+  "isLast": true,
+  "values": [
+    {
+      "id": 194,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/194",
+      "name": " EG Sensum Main Board",
+      "type": "scrum"
+    },
+    {
+      "id": 198,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/198",
+      "name": "OD1 team board",
+      "type": "scrum"
+    },
+    {
+      "id": 213,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/213",
+      "name": "OD2 team board",
+      "type": "scrum"
+    },
+    {
+      "id": 200,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/200",
+      "name": "QA Automation",
+      "type": "scrum"
+    },
+    {
+      "id": 201,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/201",
+      "name": "RASTS team board",
+      "type": "scrum"
+    },
+    {
+      "id": 195,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/195",
+      "name": "Team Infrastructure",
+      "type": "scrum"
+    },
+    {
+      "id": 202,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/202",
+      "name": "UA1 team board",
+      "type": "scrum"
+    },
+    {
+      "id": 203,
+      "self": "https://jira.eg.dk/rest/agile/1.0/board/203",
+      "name": "UA2 team board",
+      "type": "scrum"
+    }
+  ]
+}

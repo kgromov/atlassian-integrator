@@ -1,0 +1,8 @@
+{
+  "self": "https://jira.eg.dk/rest/api/2/issuetype/10001",
+  "id": "10001",
+  "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+  "iconUrl": "https://jira.eg.dk/images/icons/issuetypes/story.svg",
+  "name": "Story",
+  "subtask": false
+}

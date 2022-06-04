@@ -1,0 +1,308 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 128,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "275776",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/275776",
+      "key": "ESE-9212"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "256412",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/256412",
+      "key": "ESE-8618"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "272296",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/272296",
+      "key": "ESE-9035"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "272297",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/272297",
+      "key": "ESE-9036"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "274621",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/274621",
+      "key": "ESE-9177"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "275204",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/275204",
+      "key": "ESE-9193"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "275288",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/275288",
+      "key": "ESE-9196"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "241138",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/241138",
+      "key": "ESE-7799"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "257466",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/257466",
+      "key": "ESE-8663"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "257467",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/257467",
+      "key": "ESE-8664"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "274468",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/274468",
+      "key": "ESE-9176"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "281443",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/281443",
+      "key": "ESE-9252"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "281483",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/281483",
+      "key": "ESE-9257"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "281486",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/281486",
+      "key": "ESE-9258"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "281488",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/281488",
+      "key": "ESE-9261"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "272910",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/272910",
+      "key": "ESE-9088"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "283931",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/283931",
+      "key": "ESE-9287"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "272272",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/272272",
+      "key": "ESE-9024"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "283490",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/283490",
+      "key": "ESE-9263"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "283491",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/283491",
+      "key": "ESE-9264"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "300687",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/300687",
+      "key": "ESE-9635"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "273707",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/273707",
+      "key": "ESE-9131"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "274335",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/274335",
+      "key": "ESE-9168"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "274336",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/274336",
+      "key": "ESE-9169"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "296260",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/296260",
+      "key": "ESE-9401"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "298909",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/298909",
+      "key": "ESE-9548"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "298910",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/298910",
+      "key": "ESE-9549"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "299305",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/299305",
+      "key": "ESE-9573"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "243042",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/243042",
+      "key": "ESE-7874"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "253883",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/253883",
+      "key": "ESE-8429"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "253884",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/253884",
+      "key": "ESE-8430"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "285814",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/285814",
+      "key": "ESE-9388"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "242882",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/242882",
+      "key": "ESE-7871"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "254465",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/254465",
+      "key": "ESE-8450"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "254466",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/254466",
+      "key": "ESE-8451"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "242373",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/242373",
+      "key": "ESE-7836"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "254863",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/254863",
+      "key": "ESE-8477"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "256878",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/256878",
+      "key": "ESE-8640"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "283489",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/283489",
+      "key": "ESE-9262"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "259452",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/259452",
+      "key": "ESE-8777"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "260441",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/260441",
+      "key": "ESE-8888"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "276496",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/276496",
+      "key": "ESE-9243"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "285903",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/285903",
+      "key": "ESE-9391"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "259635",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/259635",
+      "key": "ESE-8789"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "274396",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/274396",
+      "key": "ESE-9173"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "276497",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/276497",
+      "key": "ESE-9244"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "253982",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/253982",
+      "key": "ESE-8434"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "233757",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/233757",
+      "key": "ESE-7450"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "275759",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/275759",
+      "key": "ESE-9204"
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "284286",
+      "self": "https://jira.eg.dk/rest/agile/1.0/issue/284286",
+      "key": "ESE-9315"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 5,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "303122",
+      "self": "https://jira.eg.dk/rest/api/2/issue/303122",
+      "key": "ESE-9744",
+      "fields": {
+        "summary": "Time registration UA Sprint 128",
+        "issuetype": {
+          "self": "https://jira.eg.dk/rest/api/2/issuetype/10002",
+          "id": "10002",
+          "description": "A task that needs to be done.",
+          "iconUrl": "https://jira.eg.dk/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "302611",
+      "self": "https://jira.eg.dk/rest/api/2/issue/302611",
+      "key": "ESE-9715",
+      "fields": {
+        "summary": "Upate management information export format descriptions",
+        "issuetype": {
+          "self": "https://jira.eg.dk/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+          "iconUrl": "https://jira.eg.dk/images/icons/issuetypes/story.svg",
+          "name": "Story",
+          "subtask": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "301039",
+      "self": "https://jira.eg.dk/rest/api/2/issue/301039",
+      "key": "ESE-9645",
+      "fields": {
+        "summary": "CS0610498 [reproduced] Initials can be the same for employees and residents. ",
+        "issuetype": {
+          "self": "https://jira.eg.dk/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A problem which impairs or prevents the functions of the product.",
+          "iconUrl": "https://jira.eg.dk/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "300939",
+      "self": "https://jira.eg.dk/rest/api/2/issue/300939",
+      "key": "ESE-9639",
+      "fields": {
+        "summary": "CS0607857 [Reproduced] Payment Municipality is missing on disp.arket",
+        "issuetype": {
+          "self": "https://jira.eg.dk/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A problem which impairs or prevents the functions of the product.",
+          "iconUrl": "https://jira.eg.dk/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "271408",
+      "self": "https://jira.eg.dk/rest/api/2/issue/271408",
+      "key": "ESE-8966",
+      "fields": {
+        "summary": "Document questionnaire module",
+        "issuetype": {
+          "self": "https://jira.eg.dk/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+          "iconUrl": "https://jira.eg.dk/images/icons/issuetypes/story.svg",
+          "name": "Story",
+          "subtask": false
+        }
+      }
+    }
+  ]
+}
