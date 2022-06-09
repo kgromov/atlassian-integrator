@@ -16,9 +16,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.URI;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -29,6 +31,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 @Service
 public class BitbucketService {
+    public static final String UPDATED_ON_DATE_TIME_PATTERN = "YYYY-MM-dd'T'HH:mm:ss";
     private final AuthorizationService authorizationService;
     private final RestTemplate restTemplate;
 
@@ -69,22 +72,19 @@ public class BitbucketService {
         response.getBody();
     }
 
-    // FIXME: params does not work - required to concatenated manually
-    public long getPullRequestsCount(BitbucketCredentials credentials, String user, PullRequestStatus status, LocalDate from) {
+    @SneakyThrows
+    public long getPullRequestsCount(BitbucketCredentials credentials, String user, PullRequestStatus status, LocalDate from, LocalDate to) {
         restTemplate.getInterceptors().add(tokenInterceptor(credentials));
 
-       /* String query = new StringBuilder()
+        String query = new StringBuilder()
                 .append("state=").append("\"").append(status).append("\"")
                 .append(" AND ")
-                .append("values.author.nickname=\"").append(user).append("\"")
+                .append("updated_on").append(">").append(from.atStartOfDay().format(DateTimeFormatter.ofPattern(UPDATED_ON_DATE_TIME_PATTERN)))
                 .append(" AND ")
-                .append("updated_on").append(">").append(from.atStartOfDay().format(DateTimeFormatter.ofPattern("YYYY-MM-dd'T'HH:mm")))
-                .toString();*/
-        Map<String, String> params = new LinkedHashMap<>();
-        params.put("fields", "size");
-        params.put("state", status.name());
-        params.put("q", from.atStartOfDay().format(DateTimeFormatter.ofPattern("YYYY-MM-dd'T'HH:mm")));
-        ResponseEntity<JsonNode> response = restTemplate.getForEntity(credentials.getApiUrl() + "/pullrequests/" + user, JsonNode.class, params);
+                .append("updated_on").append("<").append(to.atTime(LocalTime.MAX).format(DateTimeFormatter.ofPattern(UPDATED_ON_DATE_TIME_PATTERN)))
+                .toString();
+        String params = "?q=" + URLEncoder.encode(query, "utf-8") + "&fields=size";
+        ResponseEntity<JsonNode> response = restTemplate.getForEntity(URI.create(credentials.getApiUrl() + "/pullrequests/" + user + params), JsonNode.class);
         log.info("Response: {}", response.getBody().toPrettyString());
         return response.getBody().get("size").asLong(0);
     }

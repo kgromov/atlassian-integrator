@@ -19,7 +19,9 @@ public class TestRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        long count = bitbucketService.getPullRequestsCount(credentials, "xxrds", PullRequestStatus.MERGED, LocalDate.of(2022, 5, 20));
+        LocalDate from = LocalDate.of(2022, 5, 20);
+        LocalDate to = from.plusDays(14);
+        long count = bitbucketService.getPullRequestsCount(credentials, "xxrds", PullRequestStatus.MERGED, from, to);
         log.info("Merged pull requests = {}", count);
     }
 }
