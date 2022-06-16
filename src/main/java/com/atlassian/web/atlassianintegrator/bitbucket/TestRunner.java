@@ -9,6 +9,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
 
 @Slf4j
 @Component
@@ -19,9 +21,13 @@ public class TestRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        LocalDate from = LocalDate.of(2022, 5, 20);
+        LocalDate from = LocalDate.of(2022, 6, 2);
         LocalDate to = from.plusDays(14);
-        long count = bitbucketService.getPullRequestsCount(credentials, "xxrds", PullRequestStatus.MERGED, from, to);
-        log.info("Merged pull requests = {}", count);
+        List<String> users = Arrays.asList("xxetu", "xxigb", "xxrds", "xxmmi", "vcheb", "olesh");
+        users.parallelStream()
+                .forEach(user -> {
+                    long count = bitbucketService.getPullRequestsCount(credentials, user, PullRequestStatus.MERGED, from, to);
+                    log.info("{} merged {} pull requests", user, count);
+                });
     }
 }
